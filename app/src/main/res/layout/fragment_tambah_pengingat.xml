@@ -107,7 +107,7 @@
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:contentDescription="Icon"
-                android:src="@drawable/ic_item_icon" />
+                android:src="@drawable/add" />
 
             <!-- Item Title -->
             <TextView
@@ -125,10 +125,10 @@
             <!-- Arrow Icon -->
             <ImageView
                 android:id="@+id/item_arrow"
-                android:layout_width="24dp"
-                android:layout_height="24dp"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
                 android:contentDescription="Arrow"
-                android:src="@drawable/ic_arrow"
+                android:src="@drawable/baseline_arrow_forward_ios_24"
                 />
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
