@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+<<<<<<< HEAD
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
     <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
     <uses-permission android:name="android.permission.VIBRATE"/>
@@ -11,6 +12,8 @@
 
 
 
+=======
+>>>>>>> origin/azka
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -21,12 +24,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ToList"
         tools:targetApi="31">
+<<<<<<< HEAD
         <receiver android:name=".notification.NotifReceiver" />
 
         <activity
             android:name=".daftar"
             android:exported="false" />
         <activity
+=======
+        <activity
+            android:name=".Notif_penuh"
+            android:exported="false" />
+        <activity
+            android:name=".tambah_daftar"
+            android:exported="true"></activity>
+        <activity
+>>>>>>> origin/azka
             android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>

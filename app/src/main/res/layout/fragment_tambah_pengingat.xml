@@ -67,7 +67,11 @@
             <EditText
                 android:id="@+id/title_input"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
                 android:layout_height="wrap_content"
+=======
+                android:layout_height="48dp"
+>>>>>>> origin/azka
                 android:hint="Judul"
                 android:padding="8dp"
                 android:textColor="@color/black"
@@ -76,7 +80,11 @@
             <EditText
                 android:id="@+id/notes_input"
                 android:layout_width="match_parent"
+<<<<<<< HEAD
                 android:layout_height="wrap_content"
+=======
+                android:layout_height="48dp"
+>>>>>>> origin/azka
                 android:hint="Catatan"
                 android:padding="8dp"
                 android:textColor="@color/black"

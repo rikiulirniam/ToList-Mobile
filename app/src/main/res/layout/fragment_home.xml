@@ -28,6 +28,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <!-- Center Message TextView -->
+<<<<<<< HEAD
 
         <!-- Bottom Buttons Layout -->
         <androidx.fragment.app.FragmentContainerView
@@ -61,40 +62,98 @@
                 android:layout_marginEnd="16dp"
                 android:gravity="center"
                 android:orientation="horizontal">
+=======
+        <TextView
+            android:id="@+id/empty_list_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Daftar belum di tambahkan"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/search_bar"
+            app:layout_constraintBottom_toTopOf="@+id/bottom_buttons_layout"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintVertical_bias="0.5"/>
+
+        <!-- Bottom Buttons Layout -->
+        <LinearLayout
+            android:id="@+id/bottom_buttons_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:gravity="center">
+
+            <!-- Button Pengingat Baru -->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginEnd="16dp">
+>>>>>>> origin/azka
 
                 <ImageView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
+<<<<<<< HEAD
                     android:contentDescription="Pengingat Baru"
                     android:src="@drawable/add" />
+=======
+                    android:src="@drawable/add"
+                    android:contentDescription="Pengingat Baru"/>
+>>>>>>> origin/azka
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Pengingat Baru"
+<<<<<<< HEAD
                     android:textColor="#4BAEC0"
                     android:textSize="15sp" />
+=======
+                    android:textSize="15sp"
+                    android:textColor="#4BAEC0"/>
+>>>>>>> origin/azka
             </LinearLayout>
 
             <!-- Button Tambah Daftar -->
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+<<<<<<< HEAD
                 android:gravity="center"
                 android:orientation="horizontal">
+=======
+                android:orientation="vertical"
+                android:gravity="center">
+>>>>>>> origin/azka
 
                 <ImageView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
+<<<<<<< HEAD
                     android:contentDescription="Tambah Daftar"
                     android:src="@drawable/add" />
+=======
+                    android:src="@drawable/add"
+                android:contentDescription="Tambah Daftar"/>
+>>>>>>> origin/azka
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Tambah Daftar"
+<<<<<<< HEAD
                     android:textColor="#4BAEC0"
                     android:textSize="15sp" />
+=======
+                    android:textSize="15sp"
+                    android:textColor="#4BAEC0"/>
+>>>>>>> origin/azka
             </LinearLayout>
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
