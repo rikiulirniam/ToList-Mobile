@@ -28,71 +28,72 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <!-- Center Message TextView -->
-        <TextView
-            android:id="@+id/empty_list_message"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Daftar belum di tambahkan"
-            android:textColor="#000000"
-            android:textSize="16sp"
-            app:layout_constraintTop_toBottomOf="@id/search_bar"
-            app:layout_constraintBottom_toTopOf="@+id/bottom_buttons_layout"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintVertical_bias="0.5"/>
 
         <!-- Bottom Buttons Layout -->
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragmentContainerView"
+            android:layout_width="410dp"
+            android:layout_height="600dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.525"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/search_bar" />
+
         <LinearLayout
             android:id="@+id/bottom_buttons_layout"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
             android:orientation="horizontal"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            android:gravity="center">
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/fragmentContainerView">
 
             <!-- Button Pengingat Baru -->
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
+                android:layout_marginEnd="16dp"
                 android:gravity="center"
-                android:layout_marginEnd="16dp">
+                android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
-                    android:src="@drawable/add"
-                android:contentDescription="Pengingat Baru"/>
+                    android:contentDescription="Pengingat Baru"
+                    android:src="@drawable/add" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Pengingat Baru"
-                    android:textSize="15sp"
-                    android:textColor="#4BAEC0"/>
+                    android:textColor="#4BAEC0"
+                    android:textSize="15sp" />
             </LinearLayout>
 
             <!-- Button Tambah Daftar -->
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:gravity="center">
+                android:gravity="center"
+                android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="24dp"
                     android:layout_height="24dp"
-                    android:src="@drawable/add"
-                android:contentDescription="Tambah Daftar"/>
+                    android:contentDescription="Tambah Daftar"
+                    android:src="@drawable/add" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Tambah Daftar"
-                    android:textSize="15sp"
-                    android:textColor="#4BAEC0"/>
+                    android:textColor="#4BAEC0"
+                    android:textSize="15sp" />
             </LinearLayout>
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
