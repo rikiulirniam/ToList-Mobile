@@ -54,6 +54,7 @@
 
             <!-- Button Pengingat Baru -->
             <LinearLayout
+                android:id="@+id/add_pengingat"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:orientation="vertical"
