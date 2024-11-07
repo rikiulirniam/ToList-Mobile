@@ -17,10 +17,6 @@
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-<<<<<<< HEAD
-=======
-        app:layout_constraintHorizontal_bias="0.0"
->>>>>>> origin/azka
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -31,37 +27,18 @@
         android:layout_marginTop="12dp"
         android:background="@color/m"
         app:layout_constraintEnd_toEndOf="parent"
-<<<<<<< HEAD
-=======
-        app:layout_constraintHorizontal_bias="0.0"
->>>>>>> origin/azka
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title" />
 
     <androidx.fragment.app.FragmentContainerView
-<<<<<<< HEAD
         android:id="@+id/fragment_home"
         android:name="com.example.tolist.home"
-        android:layout_width="410dp"
-        android:layout_height="640dp"
-        android:layout_marginTop="8dp"
-        app:defaultNavHost="true"
-
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="12dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/underline"
         app:layout_constraintBottom_toBottomOf="parent" />
-=======
-        android:id="@+id/fragment"
-        android:name="com.example.tolist.home"
-        android:layout_width="410dp"
-        android:layout_height="660dp"
-        android:layout_marginTop="12dp"
-        app:defaultNavHost="true"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/underline" />
->>>>>>> origin/azka
 
 </androidx.constraintlayout.widget.ConstraintLayout>
