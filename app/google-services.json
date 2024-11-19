@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "946672728148",
+    "firebase_url": "https://tolist-426d5-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "tolist-426d5",
+    "storage_bucket": "tolist-426d5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946672728148:android:ad2abc017167466bcbd5c1",
+        "android_client_info": {
+          "package_name": "com.example.tolist_final"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGbFMz9M5aqHmd-7OkEbmXIwnYQrvBOSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
